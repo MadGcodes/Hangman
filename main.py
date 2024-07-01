@@ -11,6 +11,7 @@ lives = 6
 from hangman_art import logo
 
 print(logo)
+print("Welcome to Hangman!")
 
 # Testing code
 #print(f'Pssst, the solution is {chosen_word}.')
@@ -49,7 +50,7 @@ while not end_of_game:
     # Check if user has got all letters.
     if "_" not in display:
         end_of_game = True
-        print("You win.")
+        print("Congratulations!! You guessed the word! You win.")
 
     from hangman_art import stages
 
